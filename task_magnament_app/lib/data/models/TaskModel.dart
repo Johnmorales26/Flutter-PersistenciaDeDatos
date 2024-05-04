@@ -1,7 +1,5 @@
-
-
-import '../../data/enums/priority.dart';
-import '../../data/enums/status.dart';
+import '../enums/priority.dart';
+import '../enums/status.dart';
 
 /// A model class representing a task in the task management application.
 ///
