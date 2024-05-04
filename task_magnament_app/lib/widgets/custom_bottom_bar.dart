@@ -38,6 +38,9 @@ class CustomBottomBarState extends State<CustomBottomBar> {
             icon: Icon(Icons.check_circle_outline), label: 'Done'), // Fourth tab.
       ],
 
+      selectedItemColor: Theme.of(context).colorScheme.onSecondaryContainer,
+      unselectedItemColor: Theme.of(context).colorScheme.secondary,
+
       // Set the current index to the selected index from the ViewModel.
       currentIndex: viewmodel.readSelectedIndex, // Currently selected tab.
 
